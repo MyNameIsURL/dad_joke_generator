@@ -1,0 +1,52 @@
+.App, body {
+  text-align: center;
+  background-color: #E0E0E0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+button {
+  background-color: #1F95DA;
+  border: none;
+  box-shadow: none;
+  padding: 5px 55px 5px 55px;
+  color: white;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.github-link {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.github-link a{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+.fa-heart {
+  color: red;
+}
