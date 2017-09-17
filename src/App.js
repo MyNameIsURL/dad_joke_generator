@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { jokes } from './dadJokes.json';
-import DadJoke from './components/dadJoke.js';
+import DadJoke from './components/DadJoke.jsx';
 
 class App extends Component {
   constructor(props) {
